@@ -1,4 +1,7 @@
-//importar del nombrepaquete.nombreClase
+
+// Este programa es una aplicación de consola que ofrece varias opciones al usuario para realizar diferentes cálculos y funciones.
+// Importa diversas clases y paquetes para llevar a cabo operaciones matemáticas, conversiones de unidades y otras funciones específicas.
+// Utiliza un bucle do-while para mostrar un menú de opciones al usuario y ejecutar la funcionalidad seleccionada según la entrada del usuario.
 
 import Opciones.ListaOpciones;
 import grados.celsius;

@@ -1,3 +1,11 @@
+// Este archivo define una clase llamada "lista_de_compras" en el paquete "lista".
+// Su función es proporcionar un programa para crear una lista de compras.
+// Utiliza la clase "ListaOpciones" del paquete "Opciones" para mostrar las opciones disponibles en el programa.
+// Luego, permite al usuario elegir entre crear una lista de compras o salir del programa.
+// Si elige crear una lista de compras, solicita al usuario que ingrese los productos y sus precios, y los agrega a dos listas separadas (una para los nombres de los productos y otra para los precios).
+// Finalmente, muestra la lista de compras creada en la consola, que consiste en los nombres de los productos junto con sus precios.
+// El programa permite agregar hasta tres productos a la lista de compras.
+
 package lista;
 import Opciones.ListaOpciones;
 import java.util.Scanner;

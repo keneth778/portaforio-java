@@ -1,3 +1,10 @@
+// Este archivo define una clase llamada "celsius" en el paquete "grados".
+// Su función principal es proporcionar una calculadora para convertir entre grados Celsius y grados Fahrenheit.
+// Utiliza la clase "ListaOpciones" del paquete "Opciones" para mostrar las opciones disponibles en la calculadora.
+// Luego, utiliza un escáner para que el usuario elija entre convertir de Celsius a Fahrenheit o de Fahrenheit a Celsius.
+// Dependiendo de la opción seleccionada, solicita al usuario la temperatura en la unidad correspondiente y realiza la conversión utilizando los métodos "celsiusToFahrenheit" o "fahrenheitToCelsius", respectivamente.
+// Finalmente, imprime el resultado de la conversión en la consola. Si el usuario ingresa una opción no válida, muestra un mensaje de error.
+
 package grados;
 
 import Opciones.ListaOpciones;

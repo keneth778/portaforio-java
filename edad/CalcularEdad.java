@@ -1,3 +1,11 @@
+// Este archivo define una clase llamada "CalcularEdad" en el paquete "edad".
+// Su objetivo principal es proporcionar una calculadora para determinar la edad de una persona.
+// Primero, importa la clase "ListaOpciones" del paquete "Opciones" para mostrar las opciones disponibles en la calculadora.
+// Luego, solicita al usuario que elija entre calcular su edad o salir del programa.
+// Si elige calcular la edad, solicita al usuario su fecha de nacimiento y la fecha actual, y utiliza el método "calcularEdad" para determinar la edad.
+// El método "calcularEdad" calcula la edad utilizando las fechas proporcionadas, teniendo en cuenta si el cumpleaños ya ocurrió en el año actual.
+// Finalmente, imprime la edad calculada en la consola. Si el usuario elige una opción no válida, muestra un mensaje de error.
+
 package edad;
 
 import Opciones.ListaOpciones;

@@ -1,3 +1,11 @@
+// Este archivo define una clase llamada "Mate" en el paquete "matematicas".
+// Su función es proporcionar una calculadora básica que realiza operaciones matemáticas simples.
+// Utiliza la clase "ListaOpciones" del paquete "Opciones" para mostrar las opciones disponibles en la calculadora.
+// Luego, permite al usuario elegir entre realizar una suma, resta, multiplicación o división.
+// Dependiendo de la opción seleccionada, solicita al usuario los números necesarios para la operación y realiza la operación correspondiente utilizando los métodos definidos en la clase.
+// Finalmente, imprime el resultado de la operación en la consola.
+// Los métodos definidos en la clase incluyen "sumar", "restar", "multiplicar" y "dividir", que realizan las operaciones matemáticas respectivas y devuelven el resultado.
+
 package matematicas;
 
 import java.util.Scanner;
@@ -76,21 +84,10 @@ public class Mate {
 
     public static double dividir(double num1, double num2){
         double dividir = num1/num2;
-
-
-
         return dividir;
     }
-
     public static int multiplicar(int num1, int num2){
-
         int multi = Math.multiplyExact(num1, num2);
-
         return multi;
     }
 }
-
-
-
-
-

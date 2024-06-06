@@ -1,3 +1,8 @@
+// Este archivo contiene una clase llamada "IMC" que proporciona funcionalidad para calcular el Índice de Masa Corporal (IMC) de una persona.
+// La clase incluye un método estático llamado "CalcularIMC" que toma el peso y la altura como parámetros y devuelve el IMC calculado.
+// También incluye un método llamado "programaIMC" que interactúa con el usuario para obtener el peso y la altura, calcula el IMC utilizando el método anterior,
+// y luego imprime el IMC calculado junto con una clasificación del IMC según los estándares establecidos para diferentes rangos de valores.
+
 package programas;
 import java.util.Scanner;
 

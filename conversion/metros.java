@@ -1,3 +1,10 @@
+// Este archivo define una clase llamada "metros" en el paquete "conversion". Su función principal es proporcionar una calculadora para convertir entre kilómetros y metros.
+// Primero, importa la clase "ListaOpciones" del paquete "Opciones" para mostrar las opciones disponibles en la conversión.
+// Luego, utiliza un escáner para que el usuario elija entre convertir de kilómetros a metros o de metros a kilómetros.
+// Dependiendo de la opción seleccionada, solicita al usuario la cantidad de la distancia en la unidad correspondiente y realiza la conversión utilizando los métodos "kilometrosToMetros" o "metrosToKilometros", respectivamente.
+// Finalmente, imprime el resultado de la conversión en la consola. Si el usuario ingresa una opción no válida, muestra un mensaje de error.
+
+
 package conversion;
 import Opciones.ListaOpciones;
 
