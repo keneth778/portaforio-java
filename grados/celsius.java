@@ -1,13 +1,12 @@
 package grados;
 
 import Opciones.ListaOpciones;
-
 import java.util.Scanner;
 
 public class celsius {
     public static void calculadora() {
         String[] ListaDeOpciones = {
-                "F/C", "C/F"
+                "C/F", "F/C"
         };
         ListaOpciones.cargarOpciones(ListaDeOpciones);
 
@@ -21,12 +20,14 @@ public class celsius {
                 System.out.print("Ingrese la temperatura en grados Celsius: ");
                 double celsius = nose.nextDouble();
                 double fahrenheit = celsiusToFahrenheit(celsius);
+                System.out.println(fahrenheit);
                 break;
             case 2:
                 Scanner nose2 = new Scanner(System.in);
                 System.out.print("Ingrese la temperatura en grados Fahrenheit: ");
                 double fahr = nose2.nextDouble();
                 double cels = fahrenheitToCelsius(fahr);
+                System.out.println(cels);
                 break;
             default:
                 System.out.println("Opción no válida.");

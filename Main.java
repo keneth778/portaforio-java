@@ -56,6 +56,7 @@ public class Main {
                     break;
                 case 3:
                     celsius.calculadora();
+                    break;
                 case 4:
                     metros.calculadora();
                     break;
