@@ -11,6 +11,7 @@ import programas.IMC;
 import conversion.metros;
 import edad.CalcularEdad;
 import lista.lista_de_compras;
+import conversor.Monedas;
 
 // importar de nombrelibreria.nombrepaquete.nombreclase
 
@@ -24,7 +25,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit/Celsius", "kilometros a metros",
                 "Calcular edad", "Lista de compras",
-                "Opción_7", "Opción_8",
+                "conversion de monedas", "Opción_8",
                 "Opción_9", "Salir"
         };
 
@@ -70,7 +71,7 @@ public class Main {
                     lista_de_compras.programa();
                     break;
                 case 7:
-                    System.out.println("opcion7");
+                    Monedas.convertir();
                     break;
                 case 8:
                     System.out.println("opcion8");
