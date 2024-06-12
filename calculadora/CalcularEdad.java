@@ -6,9 +6,9 @@
 // El método "calcularEdad" calcula la edad utilizando las fechas proporcionadas, teniendo en cuenta si el cumpleaños ya ocurrió en el año actual.
 // Finalmente, imprime la edad calculada en la consola. Si el usuario elige una opción no válida, muestra un mensaje de error.
 
-package edad;
+package calculadora;
 
-import Opciones.ListaOpciones;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 

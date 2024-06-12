@@ -7,7 +7,7 @@
 // El programa permite agregar hasta tres productos a la lista de compras.
 
 package lista;
-import Opciones.ListaOpciones;
+import mis_metodos.ListaOpciones;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;

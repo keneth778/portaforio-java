@@ -6,12 +6,12 @@
 // Finalmente, imprime el resultado de la operación en la consola.
 // Los métodos definidos en la clase incluyen "sumar", "restar", "multiplicar" y "dividir", que realizan las operaciones matemáticas respectivas y devuelven el resultado.
 
-package matematicas;
+package calculadora;
 
 import java.util.Scanner;
-import Opciones.ListaOpciones;
+import mis_metodos.ListaOpciones;
 
-public class Mate {
+public class AritmeticaBasica {
     public static void calculadora() {
         String[] ListaDeOpciones = {
                 "suma","resta",

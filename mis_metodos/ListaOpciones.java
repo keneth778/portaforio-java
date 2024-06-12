@@ -2,7 +2,7 @@
 // El método estático "cargarOpciones" toma un array de cadenas que representan las opciones y las muestra en la consola, asegurándose de que estén alineadas correctamente.
 // También incluye un método privado llamado "encontrarElementoMasGrande" que encuentra y devuelve la longitud del elemento más largo en el array de opciones, lo que se utiliza para garantizar una alineación adecuada al mostrar las opciones.
 
-package Opciones;
+package mis_metodos;
 
 public class ListaOpciones {
 //Carga y muestra las opciones en grupos de dos, cada grupo en una línea separada.

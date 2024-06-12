@@ -1,7 +1,7 @@
 // Este archivo define una clase llamada "Banner" en el paquete "organizador", que proporciona un método estático llamado "mensaje_1" para imprimir un banner estilizado en la consola.
 // El banner consiste en una representación gráfica de texto que incluye el nombre del programa u otra información relevante.
 
-package organizador;
+package interfas_grafica;
 
 public class Banner {
     public static void mensaje_1(){

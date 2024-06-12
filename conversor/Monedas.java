@@ -14,7 +14,7 @@ public class Monedas {
                 "Quetzal a Peso Mexicano"
         };
 
-        Opciones.ListaOpciones.cargarOpciones(ListaDeOpciones);
+        mis_metodos.ListaOpciones.cargarOpciones(ListaDeOpciones);
         Scanner into0pcion = new Scanner(System.in);
         System.out.print("[?]");
         int opcion = into0pcion.nextInt();

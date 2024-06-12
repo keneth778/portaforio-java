@@ -3,13 +3,13 @@
 // Importa diversas clases y paquetes para llevar a cabo operaciones matemáticas, conversiones de unidades y otras funciones específicas.
 // Utiliza un bucle do-while para mostrar un menú de opciones al usuario y ejecutar la funcionalidad seleccionada según la entrada del usuario.
 
-import Opciones.ListaOpciones;
-import grados.celsius;
-import matematicas.Mate;
-import organizador.Banner;
-import programas.IMC;
-import conversion.metros;
-import edad.CalcularEdad;
+import mis_metodos.ListaOpciones;
+import conversor.ConversosGrados;
+import calculadora.AritmeticaBasica;
+import interfas_grafica.Banner;
+import IMC.IMC;
+import conversor.metros;
+import calculadora.CalcularEdad;
 import lista.lista_de_compras;
 import conversor.Monedas;
 
@@ -53,13 +53,13 @@ public class Main {
             // cargar opcion del usuario
             switch (opcion){
                 case 1:
-                    Mate.calculadora();
+                    AritmeticaBasica.calculadora();
                     break;
                 case 2:
                     IMC.programaIMC();
                     break;
                 case 3:
-                    celsius.calculadora();
+                    ConversosGrados.calculadora();
                     break;
                 case 4:
                     metros.calculadora();

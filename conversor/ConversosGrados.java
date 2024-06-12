@@ -5,12 +5,12 @@
 // Dependiendo de la opción seleccionada, solicita al usuario la temperatura en la unidad correspondiente y realiza la conversión utilizando los métodos "celsiusToFahrenheit" o "fahrenheitToCelsius", respectivamente.
 // Finalmente, imprime el resultado de la conversión en la consola. Si el usuario ingresa una opción no válida, muestra un mensaje de error.
 
-package grados;
+package conversor;
 
-import Opciones.ListaOpciones;
+import mis_metodos.ListaOpciones;
 import java.util.Scanner;
 
-public class celsius {
+public class ConversosGrados {
     public static void calculadora() {
         String[] ListaDeOpciones = {
                 "C/F", "F/C"

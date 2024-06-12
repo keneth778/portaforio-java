@@ -5,8 +5,8 @@
 // Finalmente, imprime el resultado de la conversión en la consola. Si el usuario ingresa una opción no válida, muestra un mensaje de error.
 
 
-package conversion;
-import Opciones.ListaOpciones;
+package conversor;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 

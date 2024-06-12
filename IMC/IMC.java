@@ -3,7 +3,7 @@
 // También incluye un método llamado "programaIMC" que interactúa con el usuario para obtener el peso y la altura, calcula el IMC utilizando el método anterior,
 // y luego imprime el IMC calculado junto con una clasificación del IMC según los estándares establecidos para diferentes rangos de valores.
 
-package programas;
+package IMC;
 import java.util.Scanner;
 
 public class IMC {

@@ -3,7 +3,7 @@
 #### ¡Bienvenido a mi Portafolio de Java!
 `En este espacio, encontrarás una colección de proyectos desarrollados en Java. Desde aplicaciones básicas hasta soluciones más complejas, cada proyecto refleja mi pasión por la programación y mi dedicación al dominio de Java como lenguaje de desarrollo.!`
 
-### Descripcion de los programas
+### Descripcion de los IMC
 #### Main
 - Archivo:`Main.java`
 - **Descripcion:** `punto de entrada del portafolio`
