@@ -1,4 +1,6 @@
 package conversor;
+import mis_metodos.MIsMetodos;
+
 import java.util.Scanner;
 
 public class Monedas {
@@ -22,6 +24,7 @@ public class Monedas {
         System.out.print("[?] Ingresa la cantidad a convertir: ");
         double cantidad = into0pcion.nextDouble();
 
+        MIsMetodos.imprimirLinea();
         double resultado = 0;
         switch(opcion) {
             case 1: // Quetzal a Dólar

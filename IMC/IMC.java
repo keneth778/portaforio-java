@@ -4,6 +4,8 @@
 // y luego imprime el IMC calculado junto con una clasificación del IMC según los estándares establecidos para diferentes rangos de valores.
 
 package IMC;
+import mis_metodos.MIsMetodos;
+
 import java.util.Scanner;
 
 public class IMC {
@@ -25,7 +27,7 @@ public class IMC {
         System.out.println("IMC: " + IMC);
 
 
-        System.out.println("-------------------------");
+        MIsMetodos.imprimirLinea();
 
         if (IMC < 18.5) {
             System.out.println("IMC Bajo: ");

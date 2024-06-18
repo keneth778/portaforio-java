@@ -8,6 +8,8 @@
 
 package lista;
 import mis_metodos.ListaOpciones;
+import mis_metodos.MIsMetodos;
+
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
@@ -23,6 +25,7 @@ public class lista_de_compras {
         System.out.print("[?]");
         int opcion = into0pcion.nextInt();
 
+        MIsMetodos.imprimirLinea();
         switch (opcion){
             case 1:
                 crearLista();

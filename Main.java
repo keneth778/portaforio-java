@@ -12,6 +12,7 @@ import conversor.metros;
 import calculadora.CalcularEdad;
 import lista.lista_de_compras;
 import conversor.Monedas;
+import mis_metodos.MIsMetodos;
 
 // importar de nombrelibreria.nombrepaquete.nombreclase
 
@@ -34,8 +35,10 @@ public class Main {
 
         boolean progrma = true;
         do{
-            Banner.mensaje_1();
             //nombreclase.nombremetodo
+            MIsMetodos.limpiarConsola();
+            Banner.mensaje_1();
+            MIsMetodos.imprimirLinea();
             ListaOpciones.cargarOpciones(listaDeOpciones);
 
 
@@ -48,7 +51,7 @@ public class Main {
             Scanner into0pcion = new Scanner(System.in);
             System.out.print("[?]");
             int opcion = into0pcion.nextInt();
-            System.out.println("-----------------------------------------------------");
+            MIsMetodos.imprimirLinea();
 
             // cargar opcion del usuario
             switch (opcion){

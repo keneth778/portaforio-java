@@ -10,6 +10,7 @@ package calculadora;
 
 import java.util.Scanner;
 import mis_metodos.ListaOpciones;
+import mis_metodos.MIsMetodos;
 
 public class AritmeticaBasica {
     public static void calculadora() {
@@ -24,6 +25,8 @@ public class AritmeticaBasica {
         Scanner into0pcion = new Scanner(System.in);
         System.out.print("[?]");
         int opcion = into0pcion.nextInt();
+
+        MIsMetodos.imprimirLinea();
 
         switch (opcion){
             case 1:

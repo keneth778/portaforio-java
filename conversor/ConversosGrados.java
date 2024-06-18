@@ -8,6 +8,8 @@
 package conversor;
 
 import mis_metodos.ListaOpciones;
+import mis_metodos.MIsMetodos;
+
 import java.util.Scanner;
 
 public class ConversosGrados {
@@ -21,6 +23,7 @@ public class ConversosGrados {
         System.out.print("[?]");
         int opcion = into0pcion.nextInt();
 
+        MIsMetodos.imprimirLinea();
         switch (opcion) {
             case 1:
                 Scanner nose = new Scanner(System.in);

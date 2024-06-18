@@ -7,6 +7,7 @@
 
 package conversor;
 import mis_metodos.ListaOpciones;
+import mis_metodos.MIsMetodos;
 
 import java.util.Scanner;
 
@@ -20,6 +21,7 @@ public class metros {
         System.out.print("[?]");
         int opcion = into0pcion.nextInt();
 
+        MIsMetodos.imprimirLinea();
         switch (opcion) {
             case 1:
                 Scanner scannerKmToM = new Scanner(System.in);
