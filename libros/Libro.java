@@ -19,5 +19,6 @@ public class Libro {
    public  void setFecha(String fecha){this.fecha=autor;}
 
 
-   public String teString(){return "Titulo: "+ titulo + "autor: "+ autor +"fecha: "+ fecha;}
+    @Override
+    public String toString(){return "Titulo: "+ titulo + "autor: "+ autor +"fecha: "+ fecha;}
 }
