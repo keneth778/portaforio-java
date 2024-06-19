@@ -2,7 +2,7 @@ package libros;
 import java.util.Scanner;
 
 public class Biblioteca {
-    public static void program(){
+    public static void program() {
         System.out.println("Biblioteca");
 
         Libro libro1 = new Libro("Cien Años de Soledad", "Gabriel García Márquez", "30/05/1967");
@@ -16,15 +16,15 @@ public class Biblioteca {
         Libro libro9 = new Libro("El Señor de los Anillos", "J.R.R. Tolkien", "29/07/1954");
         Libro libro10 = new Libro("El Hobbit", "J.R.R. Tolkien", "21/09/1937");
 
-
         Scanner scr = new Scanner(System.in);
 
-
+        // Mostrar títulos de los libros
+        System.out.println("Títulos de los libros:");
         System.out.println(libro1.getTitulo());
         System.out.println(libro2.getTitulo());
 
-        //AUTORES
-        libro1.setAutor("yo");
+        // Mostrar autores de los libros
+        System.out.println("\nAutores de los libros:");
         System.out.println(libro1.getAutor());
         System.out.println(libro2.getAutor());
         System.out.println(libro3.getAutor());
@@ -36,7 +36,8 @@ public class Biblioteca {
         System.out.println(libro9.getAutor());
         System.out.println(libro10.getAutor());
 
-        //FECHAS
+        // Mostrar fechas de los libros
+        System.out.println("\nFechas de publicación de los libros:");
         System.out.println(libro1.getFecha());
         System.out.println(libro2.getFecha());
         System.out.println(libro3.getFecha());
@@ -48,7 +49,8 @@ public class Biblioteca {
         System.out.println(libro9.getFecha());
         System.out.println(libro10.getFecha());
 
+        // Mostrar información completa de un libro
+        System.out.println("\nInformación completa de un libro:");
         System.out.println(libro1.toString());
-
     }
 }

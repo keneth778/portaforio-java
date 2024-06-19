@@ -13,6 +13,8 @@ import calculadora.CalcularEdad;
 import lista.lista_de_compras;
 import conversor.Monedas;
 import mis_metodos.MIsMetodos;
+import libros.Biblioteca;
+import colegios.ListaAlumnos;
 
 // importar de nombrelibreria.nombrepaquete.nombreclase
 
@@ -26,8 +28,8 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit/Celsius", "kilometros a metros",
                 "Calcular edad", "Lista de compras",
-                "conversion de monedas", "Opción_8",
-                "Opción_9", "Salir"
+                "conversion de monedas", "biblioteca",
+                "primero primaria", "Salir"
         };
 
         //trae a la clase banner y trae a su metodo mensaje_1
@@ -77,10 +79,11 @@ public class Main {
                     Monedas.convertir();
                     break;
                 case 8:
-                    System.out.println("opcion8");
+                    Biblioteca.program();
                     break;
                 case 9:
-                    System.out.println("opcion9");
+                    ListaAlumnos.program();
+                    break;
                 case 10:
                     progrma = false;
                     break;
