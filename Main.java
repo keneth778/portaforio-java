@@ -14,7 +14,9 @@ import lista.lista_de_compras;
 import conversor.Monedas;
 import mis_metodos.MIsMetodos;
 import libros.Biblioteca;
-import colegios.ListaAlumnos;
+import colegios.SegundoPrimaria;
+import colegios.Curso;
+import colegios.Estudiante;
 
 // importar de nombrelibreria.nombrepaquete.nombreclase
 
@@ -82,7 +84,7 @@ public class Main {
                     Biblioteca.program();
                     break;
                 case 9:
-                    ListaAlumnos.program();
+                    Curso.program();
                     break;
                 case 10:
                     progrma = false;

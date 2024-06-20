@@ -1,3 +1,4 @@
+
 package colegios;
 
 public class SegundoPrimaria {

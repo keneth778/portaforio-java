@@ -1,6 +1,6 @@
 package colegios;
 
-public class ListaAlumnos {
+public class Curso {
     public static void program() {
         System.out.println("Información de alumnos y cursos:");
 
