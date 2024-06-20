@@ -31,7 +31,7 @@ public class Main {
                 "Farenheit/Celsius", "kilometros a metros",
                 "Calcular edad", "Lista de compras",
                 "conversion de monedas", "biblioteca",
-                "primero primaria", "Salir"
+                "segundo primaria", "Salir"
         };
 
         //trae a la clase banner y trae a su metodo mensaje_1
