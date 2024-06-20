@@ -1,12 +1,12 @@
 package colegios;
 
-public class PrimeroPrimaria{
+public class SegundoPrimaria {
     private String nombre;
     private String categoria;
     private String periodo;
 
     // Constructor
-    public PrimeroPrimaria(String nombre, String categoria, String periodo) {
+    public SegundoPrimaria(String nombre, String categoria, String periodo) {
         this.nombre = nombre;
         this.categoria = categoria;
         this.periodo = periodo;
@@ -40,7 +40,7 @@ public class PrimeroPrimaria{
 
     @Override
     public String toString() {
-        return "PrimeroPrimaria{" +
+        return "SegundoPrimaria{" +
                 "nombre='" + nombre + '\'' +
                 ", categoria='" + categoria + '\'' +
                 ", periodo='" + periodo + '\'' +
