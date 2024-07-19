@@ -5,11 +5,9 @@
 // Si elige crear una lista de compras, solicita al usuario que ingrese los productos y sus precios, y los agrega a dos listas separadas (una para los nombres de los productos y otra para los precios).
 // Finalmente, muestra la lista de compras creada en la consola, que consiste en los nombres de los productos junto con sus precios.
 // El programa permite agregar hasta tres productos a la lista de compras.
-
 package lista;
 import mis_metodos.ListaOpciones;
 import mis_metodos.MIsMetodos;
-
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
@@ -19,6 +17,7 @@ public class lista_de_compras {
         String[] ListaDeOpciones = {
                 "Lista de compras", "Salir"
         };
+
         ListaOpciones.cargarOpciones(ListaDeOpciones);
 
         Scanner into0pcion = new Scanner(System.in);

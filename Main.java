@@ -14,12 +14,12 @@ import lista.lista_de_compras;
 import conversor.Monedas;
 import mis_metodos.MIsMetodos;
 import libros.Biblioteca;
-import colegios.SegundoPrimaria;
 import colegios.Curso;
-import colegios.Estudiante;
 
 // importar de nombrelibreria.nombrepaquete.nombreclase
 
+import javax.swing.*;
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -34,8 +34,19 @@ public class Main {
                 "segundo primaria", "Salir"
         };
 
-        //trae a la clase banner y trae a su metodo mensaje_1
 
+        JFrame miVentana = new JFrame();
+        miVentana.setBounds(0,0,500,600);
+        miVentana.setLayout(null);
+        // panel del banner
+        JPanel banner = new JPanel();
+        banner.setBackground(Color.BLUE);
+        banner.setBounds(0,0,500,300);
+
+
+
+        miVentana.add(banner);
+        miVentana.setVisible(true);
 
         boolean progrma = true;
         do{
